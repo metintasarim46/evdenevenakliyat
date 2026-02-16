@@ -1,4 +1,4 @@
-﻿import { Truck, Shield, Clock, Users, CheckCircle, TrendingUp } from 'lucide-react';
+﻿import { Truck, Shield, Clock, Users, CheckCircle } from 'lucide-react';
 
 const Hero = () => {
   return (
