@@ -31,6 +31,7 @@ function App() {
                 <About />
                 <BolgelerBanner /> 
                 <Contact />
+                <SiteHaritasi />
               </>
             } />
 
