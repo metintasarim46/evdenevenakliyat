@@ -1,15 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://evdeneve.metintasarim.io/</loc>
+    <loc>https://evdeneve.metintasarim.io</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://evdeneve.metintasarim.io/hizmet-bolgelerimiz</loc>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://evdeneve.metintasarim.io/blog</loc>
-    <priority>0.7</priority>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/site-haritasi</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/istanbul/kadikoy/moda</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/ev-tasima/istanbul/kadikoy/moda</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/istanbul/kadikoy/suadiye</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/ev-tasima/istanbul/kadikoy/suadiye</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/istanbul/kadikoy/erenkoy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/ev-tasima/istanbul/kadikoy/erenkoy</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/istanbul/besiktas/bebek</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/ev-tasima/istanbul/besiktas/bebek</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/istanbul/besiktas/ortakoy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/ev-tasima/istanbul/besiktas/ortakoy</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/istanbul/besiktas/levent</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/ev-tasima/istanbul/besiktas/levent</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/ankara/cankaya/ayranci</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/ev-tasima/ankara/cankaya/ayranci</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/ankara/cankaya/bahcelievler</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://evdeneve.metintasarim.io/ev-tasima/ankara/cankaya/bahcelievler</loc>
+    <priority>0.5</priority>
   </url>
 </urlset>
