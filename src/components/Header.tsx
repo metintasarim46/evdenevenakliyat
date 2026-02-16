@@ -5,11 +5,11 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    { name: 'Anasayfa', href: '#anasayfa' },
-    { name: 'Hakkımızda', href: '#hakkimizda' },
-    { name: 'Hizmetlerimiz', href: '#hizmetlerimiz' },
-    { name: 'Blog', href: '#blog' },
-    { name: 'İletişim', href: '#iletisim' },
+    { name: 'Anasayfa', href: '/' },
+    { name: 'Hakkımızda', href: '/#hakkimizda' },
+    { name: 'Hizmetlerimiz', href: '/#hizmetlerimiz' },
+    { name: 'Blog', href: '/blog' },
+    { name: 'İletişim', href: '/#iletisim' },
   ];
 
   return (
@@ -42,7 +42,7 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <a href="#anasayfa" className="flex items-center">
+          <a href="/" className="flex items-center">
             <h1 className="text-2xl md:text-3xl font-bold text-primary">
               Metin <span className="text-secondary">Nakliyat</span>
             </h1>

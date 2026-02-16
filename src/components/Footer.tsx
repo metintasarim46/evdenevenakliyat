@@ -106,7 +106,8 @@ const Footer = () => {
 
         {/* Alt Bar */}
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Metin Nakliyat. Tüm hakları saklıdır. | Güvenli ve Profesyonel Taşımacılık Hizmetleri</p>
+          <p>&copy; {new Date().getFullYear()} Metin Nakliyat. Tüm hakları saklıdır. | Güvenli ve Profesyonel Taşımacılık Hizmetleri</p><a href='https://metintasarim.com'>Metin Tasarım Tarafından Yapılmıştır.</a>
+        
         </div>
       </div>
     </footer>
