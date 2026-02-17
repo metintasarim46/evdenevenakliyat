@@ -46,9 +46,9 @@ const Blog = () => {
         
         {/* Başlık Bölümü - SEO ve Mobil Optimize */}
         <div style={{ textAlign: 'center', marginBottom: '50px' }}>
-          <h1 style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', color: '#2d3748', marginBottom: '15px', lineHeight: 1.2 }}>
+          <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', color: '#2d3748', marginBottom: '15px', lineHeight: 1.2 }}>
             Nakliyat ve Taşınma Rehberi
-          </h1>
+          </h2>
           <p style={{ color: '#718096', fontSize: '1.1rem', maxWidth: '700px', margin: '0 auto', lineHeight: 1.5 }}>
             Evden eve nakliyat ve profesyonel taşınma süreçleri hakkında uzman ekibimiz tarafından hazırlanan güncel rehberler.
           </p>

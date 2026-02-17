@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+/* Mobil uyumluluk can simidi */
+html, body {
+  overflow-x: hidden !important;
+  position: relative;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
