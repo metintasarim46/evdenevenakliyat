@@ -1,5 +1,5 @@
-﻿// App.tsx dosyasının en üstünde olmalı
-import { Heart, Award, Handshake, Target } from 'lucide-react';
+﻿import { Heart, Award, Handshake, Target } from 'lucide-react';
+
 const About = () => {
   return (
     <section id="hakkimizda" className="py-16 bg-white">
@@ -74,7 +74,7 @@ const About = () => {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-secondary text-2xl">✓</span>
-                  <span className="text-lg">Kadıköy, Üsküdar, Beşiktaş, Şişli ve tüm ilçelerde aktif hizmet</span>
+                  <span className="text-lg">Kadıköy, Üsküdar, Beşiktaş ve tüm ilçeler</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-secondary text-2xl">✓</span>
@@ -84,18 +84,13 @@ const About = () => {
                   <span className="text-secondary text-2xl">✓</span>
                   <span className="text-lg">Tam kapsamlı nakliyat sigortası</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-secondary text-2xl">✓</span>
-                  <span className="text-lg">Şeffaf ve uygun fiyat politikası</span>
-                </li>
               </ul>
             </div>
 
             <div className="bg-gradient-to-br from-secondary to-orange-600 text-white p-8 rounded-xl shadow-xl">
               <h3 className="text-2xl font-bold mb-4">Vizyon & Misyon</h3>
               <p className="text-lg leading-relaxed">
-                Türkiye'nin her köşesinde güvenilir, hızlı ve ekonomik nakliyat hizmeti sunarak sektörde lider bir marka olmak. 
-                Müşterilerimizin taşınma sürecini stressiz, keyifli bir deneyime dönüştürmek temel misyonumuzdur.
+                Türkiye'nin her köşesinde güvenilir, hızlı ve ekonomik nakliyat hizmeti sunarak sektörde lider bir marka olmak temel misyonumuzdur.
               </p>
             </div>
           </div>
