@@ -13,6 +13,7 @@ import IlIlceSayfasi from './pages/il-ilce';
 import EvTasimaSayfasi from './pages/EvTasimaSayfasi';
 import Blog from './pages/Blog';
 import BlogDetay from './pages/BlogDetay';
+import Gallery from './components/Gallery'; // resimler
 import SiteHaritasi from './pages/SiteHaritasi';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
                 <Services />
                 <About />
                 <BolgelerBanner /> 
+                <Gallery />
                 <Contact />
                 <SiteHaritasi />
               </>

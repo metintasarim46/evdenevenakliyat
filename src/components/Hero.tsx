@@ -10,9 +10,12 @@ const Hero = () => {
           {/* Sol Taraf - Ana Metin */}
           <div className="text-center lg:text-left">
             {/* SEO DEĞİŞİKLİĞİ: Başlığa anahtar kelimeler eklendi ve tam h1 yapıldı */}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Metin Nakliyat ile Taşınmanın <span className="text-primary">Güvenli</span> ve <span className="text-secondary">Keyifli</span> Yolu
-            </h1>
+       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+  Metin Nakliyat ile Taşınmanın <span className="text-primary">Güvenli</span> ve <span className="text-secondary">Keyifli</span> Yolu
+</h1>
+<p className="text-lg md:text-xl text-gray-700 mb-8 max-w-3xl leading-relaxed">
+  İstanbul genelinde <strong className="text-primary">asansörlü nakliyat</strong>, sigortalı evden eve taşımacılık ve profesyonel eşya depolama çözümleri sunuyoruz. 15 yılı aşkın tecrübemizle, eşyalarınızı paketlemeden montaja kadar her aşamada büyük bir titizlikle yeni adresinize ulaştırıyoruz. Hemen ücretsiz ekspertiz ve fiyat teklifi alın.
+</p>
             <p className="text-xl md:text-2xl text-gray-700 mb-4 font-medium">
               İstanbul Evden Eve Nakliyat ve Şehirler Arası Taşımacılık
             </p>
