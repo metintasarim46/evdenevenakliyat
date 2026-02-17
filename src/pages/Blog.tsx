@@ -41,39 +41,75 @@ const Blog = () => {
   ];
 
   return (
-    <div style={{ backgroundColor: '#f7fafc', minHeight: '80vh', padding: '140px 20px 80px', fontFamily: "'Arial', sans-serif" }}>
-      <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+    <section style={{ backgroundColor: '#f7fafc', minHeight: '80vh', padding: '100px 0 60px', fontFamily: "'Arial', sans-serif" }}>
+      <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 20px' }}>
         
-        <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-          <h1 style={{ fontSize: '3rem', color: '#2d3748', marginBottom: '15px' }}>Nakliyat ve Taşınma Rehberi</h1>
-          <p style={{ color: '#718096', fontSize: '1.2rem', maxWidth: '700px', margin: '0 auto' }}>
-            Evden eve nakliyat, eşya paketleme ve sorunsuz taşınma süreçleri hakkında uzman ekibimiz tarafından hazırlanan güncel yazılarımız.
+        {/* Başlık Bölümü - SEO ve Mobil Optimize */}
+        <div style={{ textAlign: 'center', marginBottom: '50px' }}>
+          <h1 style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', color: '#2d3748', marginBottom: '15px', lineHeight: 1.2 }}>
+            Nakliyat ve Taşınma Rehberi
+          </h1>
+          <p style={{ color: '#718096', fontSize: '1.1rem', maxWidth: '700px', margin: '0 auto', lineHeight: 1.5 }}>
+            Evden eve nakliyat ve profesyonel taşınma süreçleri hakkında uzman ekibimiz tarafından hazırlanan güncel rehberler.
           </p>
           <div style={{ width: '60px', height: '4px', backgroundColor: '#3182ce', margin: '20px auto', borderRadius: '2px' }}></div>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', gap: '30px' }}>
+        {/* Blog Kartları - Mobil Uyumluluk Odaklı Grid */}
+        <div style={{ 
+          display: 'grid', 
+          gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 320px), 1fr))', 
+          gap: '25px' 
+        }}>
           {blogYazilari.map((yazi, index) => (
-            <div key={index} style={{ backgroundColor: 'white', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 4px 15px rgba(0,0,0,0.05)', display: 'flex', flexDirection: 'column', border: '1px solid #e2e8f0', transition: 'transform 0.3s ease, box-shadow 0.3s ease' }} 
-                 onMouseOver={(e) => { e.currentTarget.style.transform = 'translateY(-5px)'; e.currentTarget.style.boxShadow = '0 10px 25px rgba(0,0,0,0.1)'; }}
-                 onMouseOut={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 4px 15px rgba(0,0,0,0.05)'; }}>
-              <div style={{ padding: '30px', flex: 1, display: 'flex', flexDirection: 'column' }}>
-                <div style={{ marginBottom: '15px' }}>
-                  <span style={{ backgroundColor: '#ebf8ff', color: '#3182ce', padding: '5px 12px', borderRadius: '20px', fontSize: '0.85rem', fontWeight: 'bold' }}>{yazi.kategori}</span>
-                  <span style={{ color: '#a0aec0', fontSize: '0.85rem', marginLeft: '15px' }}>{yazi.tarih}</span>
+            <article 
+              key={index} 
+              style={{ 
+                backgroundColor: 'white', 
+                borderRadius: '12px', 
+                overflow: 'hidden', 
+                boxShadow: '0 4px 15px rgba(0,0,0,0.05)', 
+                display: 'flex', 
+                flexDirection: 'column', 
+                border: '1px solid #e2e8f0', 
+                transition: 'all 0.3s ease' 
+              }} 
+              onMouseOver={(e) => { e.currentTarget.style.transform = 'translateY(-5px)'; e.currentTarget.style.boxShadow = '0 10px 25px rgba(0,0,0,0.1)'; }}
+              onMouseOut={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 4px 15px rgba(0,0,0,0.05)'; }}
+            >
+              <div style={{ padding: '25px', flex: 1, display: 'flex', flexDirection: 'column' }}>
+                <div style={{ marginBottom: '15px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '10px' }}>
+                  <span style={{ backgroundColor: '#ebf8ff', color: '#3182ce', padding: '4px 10px', borderRadius: '15px', fontSize: '0.75rem', fontWeight: 'bold', whiteSpace: 'nowrap' }}>
+                    {yazi.kategori}
+                  </span>
+                  <span style={{ color: '#a0aec0', fontSize: '0.75rem' }}>{yazi.tarih}</span>
                 </div>
-                <h2 style={{ fontSize: '1.5rem', color: '#2d3748', margin: '0 0 15px', lineHeight: 1.4 }}>{yazi.baslik}</h2>
-                <p style={{ color: '#4a5568', lineHeight: 1.6, marginBottom: '25px', flexGrow: 1 }}>{yazi.ozet}</p>
-                <Link to={`/blog/${yazi.slug}`} style={{ display: 'inline-block', backgroundColor: '#3182ce', color: 'white', padding: '10px 25px', borderRadius: '8px', textDecoration: 'none', fontWeight: 'bold', textAlign: 'center' }}>
+                <h2 style={{ fontSize: '1.4rem', color: '#2d3748', margin: '0 0 12px', lineHeight: 1.3 }}>{yazi.baslik}</h2>
+                <p style={{ color: '#4a5568', fontSize: '0.95rem', lineHeight: 1.6, marginBottom: '20px', flexGrow: 1 }}>{yazi.ozet}</p>
+                <Link 
+                  to={`/blog/${yazi.slug}`} 
+                  style={{ 
+                    display: 'block', 
+                    backgroundColor: '#3182ce', 
+                    color: 'white', 
+                    padding: '12px', 
+                    borderRadius: '8px', 
+                    textDecoration: 'none', 
+                    fontWeight: 'bold', 
+                    textAlign: 'center',
+                    fontSize: '0.9rem',
+                    transition: 'background-color 0.2s'
+                  }}
+                >
                   Yazıyı Oku &rarr;
                 </Link>
               </div>
-            </div>
+            </article>
           ))}
         </div>
 
       </div>
-    </div>
+    </section>
   );
 };
 
