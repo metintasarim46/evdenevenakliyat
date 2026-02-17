@@ -1,5 +1,5 @@
-﻿import { Heart, Award, Handshake, Target } from 'lucide-react';
-
+﻿// App.tsx dosyasının en üstünde olmalı
+import { Heart, Award, Handshake, Target } from 'lucide-react';
 const About = () => {
   return (
     <section id="hakkimizda" className="py-16 bg-white">
